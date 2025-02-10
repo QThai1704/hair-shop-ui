@@ -1,0 +1,143 @@
+.header {
+    background-color: var(--color-background);
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+}
+
+.header .header__logo {
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    user-select: none;
+}
+
+.header__navbar {
+    width: 100%;
+}
+
+.header__navbar--btn {
+    background-color: var(--color-background) !important;
+    margin: 0 10px;
+    border: none;
+}
+
+.header__navbar--search-input,
+.header__navbar--search-input:focus {
+    width: 100%;
+    height: 38px;
+    background-color: rgb(50, 61, 78);
+    border: 0.6px solid rgba(207, 207, 207, 0.1);
+    border-radius: 19px;
+    font-size: 1.5rem;
+}
+
+.header__navbar--search-input,
+.header__navbar--search-input::placeholder,
+.header__navbar--search-input:focus {
+    color: var(--text-color);
+}
+
+.settings__notification {
+    color: #4880FF;
+    margin: 0 10px;
+    position: relative;
+}
+
+.settings__notification::after {
+    content: "6";
+    width: 16px;
+    height: 16px;
+    background-color: #FF4F4F;
+    color: var(--text-color);
+    position: absolute;
+    top: 0;
+    right: 5px;
+    border-radius: 50%;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+}
+
+.settings__notification--dropdown {
+    width: 200px;
+    font-size: 1.6rem;
+}
+
+.settings__languages--dropdown {
+    width: 170px;
+    font-size: 1.6rem;
+}
+
+.settings__languages {
+    color: var(--text-color);
+}
+.settings__notification--dropdown-header {
+    font-size: 1.4rem;
+}
+
+.settings__languages--toggle,
+.settings__languages--toggle:focus,
+.settings__languages--toggle:hover {
+    background-color: var(--color-background);
+    border: none;
+    font-size: 1.6rem;
+}
+
+.settings__languages--dropdown-item {
+    display: flex;
+}
+
+.flag {
+    width: 32px;
+    height: 32px;
+}
+
+.flag-name {
+    margin-left: 14px;
+    flex: 1;
+}
+
+.icon-check {
+    color: green;
+}
+
+.settings__info--avatar {
+    width: 44px;
+    height: 44px;
+    margin: 0 10px;
+    user-select: none;
+}
+
+.settings__info--title {
+    margin-right: 10px;
+    user-select: none;
+}
+
+.settings__info--user, 
+.settings__info--role {
+    user-select: none;
+    margin: 0;
+}
+.settings__info--user {
+    padding: 0;
+    font-size: 1.6rem;
+}
+
+.settings__info--role {
+    padding: 0;
+    font-size: 1.4rem;
+}
+
+.settings__info--toggle,
+.settings__info--toggle:focus,
+.settings__info--toggle:hover,
+.settings__info--toggle:active {
+    background-color: var(--color-background);
+    border: none;
+}

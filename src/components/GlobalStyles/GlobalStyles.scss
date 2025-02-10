@@ -1,0 +1,46 @@
+@import 'normalize.css';
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap');
+
+:root{
+    --color-background: #273142;
+    --text-color: #fff;
+    --icon-width: 24px;
+    --icon-height: 24px;
+    --color-background-content: #1B2431;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    text-rendering: optimizeLegibility;
+}
+
+.size-icon {
+    width: var(--icon-width);
+    height: var(--icon-height);
+}
+
+.full-width {
+    width: 100%;
+}
+
+.lg {
+    font-size: 1.8rem;
+}
+
+.none {
+    font-size: 0px;
+}
+
+.p-0 {
+    padding: 0;
+}
